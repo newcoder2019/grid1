@@ -1,0 +1,33 @@
+#container {
+  display: grid;
+  height: 300px;
+  grid-gap: 2px;
+  border: 1px solid black;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "h h h h"
+    "l c c r"
+    "l f f f";
+}
+
+.h {
+  background-color: pink;
+  border: solid red;
+}
+.l {
+  background-color: yellow;
+  border: solid orange;
+}
+.c {
+  background-color: #fbab7e;
+  border: solid #e0580b;
+}
+.r {
+  background-color: #85ffbd;
+  border: solid #062b17;
+}
+.f {
+  background-color: #9599e2;
+  border: solid #1a23cf;
+}
